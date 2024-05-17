@@ -21,9 +21,11 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Explore the Possibilities of&nbsp;AI&nbsp;Chatting with {` `}
+            Hola! I'm&nbsp;Nicolas&nbsp;Quiroga&nbsp;
+            <br />
+            Full-Stack{` `}
             <span className="inline-block relative">
-              Brainwave{" "}
+              Developer{" "}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
@@ -34,8 +36,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Unleash the power of AI within Brainwave. Upgrade your productivity
-            with Brainwave, the open AI chat app.
+            Unleash the power of your brand. Elevate your website.
           </p>
           <Button href="/pricing" white>
             Get started
@@ -49,10 +50,10 @@ const Hero = () => {
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <img
                   src={robot}
-                  className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
+                  className="w-full scale-[1.7] translate-y-[33%] translate-x-[7%] md:scale-[1] md:-translate-y-[3%] lg:-translate-y-[8%] lg:-translate-x-[0%] lg:scale-[0.9] opacity-90"
                   width={1024}
-                  height={490}
-                  alt="AI"
+                  height={390}
+                  alt="NicoQ"
                 />
 
                 <ScrollParallax isAbsolutelyPositioned>
