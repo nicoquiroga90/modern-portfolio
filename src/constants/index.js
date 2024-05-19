@@ -241,7 +241,7 @@ export const pricing = [
   },
 ];
 
-export const benefits = [
+export const testimonials = [
   {
     id: "0",
     title: "Ask anything",
