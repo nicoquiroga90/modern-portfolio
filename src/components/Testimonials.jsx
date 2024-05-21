@@ -11,7 +11,7 @@ const Testimonials = () => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Chat Smarter, Not Harder with Brainwave"
+          title="Transforming Challenges into Digital Solutions"
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
@@ -34,7 +34,8 @@ const Testimonials = () => {
                     alt={item.title}
                   />
                   <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
-                    Explore more
+                    {item.author} <br />
+                    {item.position}
                   </p>
                   <Arrow />
                 </div>
@@ -44,7 +45,7 @@ const Testimonials = () => {
 
               <div
                 className="absolute inset-0.5 bg-n-8"
-                style={{ cliPath: "url(#testimonials)" }}
+                style={{ clipPath: "url(#testimonials)" }}
               >
                 <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
                   {item.imageUrl && (
