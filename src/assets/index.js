@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import check from "./check.svg";
-import brainwaveSymbol from "./brainwave-symbol.svg";
+import nilogo from "./nilogo.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
 import play from "./play.svg";
 import gradient from "./gradient.png";
@@ -35,6 +35,14 @@ import photoshop from "./collaboration/photoshop.png";
 import protopie from "./collaboration/protopie.png";
 import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
+import reactlogo from "./collaboration/react.png";
+import jslogo from "./collaboration/jslogo.png";
+import nodejslogo from "./collaboration/nodejs.png";
+import tslogo from "./collaboration/tslogo.png";
+import gitlogo from "./collaboration/gitlogo.png";
+import tailwindlogo from "./collaboration/tailwindlogo.png";
+import postgresql from "./collaboration/postgresql.png";
+import vitelogo from "./collaboration/vitelogo.png";
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
@@ -80,7 +88,7 @@ export {
   check,
   check2,
   loading1,
-  brainwaveSymbol,
+  nilogo,
   brainwaveWhiteSymbol,
   play,
   gradient,
@@ -111,6 +119,14 @@ export {
   protopie,
   raindrop,
   slack,
+  reactlogo,
+  jslogo,
+  nodejslogo,
+  tslogo,
+  gitlogo,
+  tailwindlogo,
+  postgresql,
+  vitelogo,
   service1,
   service2,
   service3,

@@ -2,6 +2,7 @@ import ButtonGradient from "./assets/svg/ButtonGradient";
 import Hero from "./components/Hero";
 import Header from "./components/Header";
 import Testimonials from "./components/Testimonials";
+import Stack from "./components/Stack";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
         <Header />
         <Hero />
         <Testimonials />
+        <Stack />
       </div>
       <ButtonGradient />
     </>

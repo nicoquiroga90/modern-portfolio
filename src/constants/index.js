@@ -34,6 +34,14 @@ import {
   telegram,
   twitter,
   yourlogo,
+  reactlogo,
+  jslogo,
+  nodejslogo,
+  tslogo,
+  gitlogo,
+  tailwindlogo,
+  postgresql,
+  vitelogo,
 } from "../assets";
 
 export const navigation = [
@@ -127,81 +135,80 @@ export const roadmap = [
   },
 ];
 
-export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
-
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Languages and Tools",
+    text: "Proficient in JavaScript (JS) and TypeScript (TS), I harness their flexibility and strong typing to build scalable and maintainable applications. Additionally, I utilize Vite for rapid development and Node.js for efficient server-side programming.",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Libraries and Frameworks",
+    text: "Specializing in React, I create immersive and responsive user interfaces that drive user engagement. I complement this with Tailwind CSS for streamlined and customizable styling, ensuring a modern and polished appearance for applications.",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Others",
+    text: "With expertise in PostgreSQL, MongoDB, and Git, I ensure robust data management and collaborative development practices. These tools enable efficient version control, seamless database operations, and effective project collaboration, contributing to the overall success of the development process.",
   },
 ];
 
 export const collabApps = [
   {
     id: "0",
-    title: "Figma",
-    icon: figma,
+    title: "JavaScript",
+    icon: jslogo,
     width: 26,
     height: 36,
   },
   {
     id: "1",
-    title: "Notion",
-    icon: notion,
-    width: 34,
+    title: "React",
+    icon: reactlogo,
+    width: 26,
     height: 36,
   },
   {
     id: "2",
-    title: "Discord",
-    icon: discord,
-    width: 36,
-    height: 28,
+    title: "NodeJS",
+    icon: nodejslogo,
+    width: 26,
+    height: 36,
   },
   {
     id: "3",
-    title: "Slack",
-    icon: slack,
-    width: 34,
-    height: 35,
+    title: "Typescript",
+    icon: tslogo,
+    width: 26,
+    height: 36,
   },
   {
     id: "4",
-    title: "Photoshop",
-    icon: photoshop,
-    width: 34,
-    height: 34,
+    title: "Git",
+    icon: gitlogo,
+    width: 26,
+    height: 36,
   },
   {
     id: "5",
-    title: "Protopie",
-    icon: protopie,
-    width: 34,
-    height: 34,
+    title: "Tailwind",
+    icon: tailwindlogo,
+    width: 26,
+    height: 36,
   },
   {
     id: "6",
-    title: "Framer",
-    icon: framer,
+    title: "Postgresql",
+    icon: postgresql,
     width: 26,
-    height: 34,
+    height: 36,
   },
   {
     id: "7",
-    title: "Raindrop",
-    icon: raindrop,
-    width: 38,
-    height: 32,
+    title: "ViteJS",
+    icon: vitelogo,
+    width: 26,
+    height: 36,
   },
 ];
 
@@ -251,12 +258,15 @@ export const testimonials = [
     backgroundUrl: "src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
+    link: "https://www.linkedin.com/in/august-mader/",
   },
   {
     id: "1",
     title: "Improve everyday",
     text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
     backgroundUrl: "src/assets/benefits/card-2.svg",
+    author: "",
+    position: "",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
@@ -270,6 +280,7 @@ export const testimonials = [
     position: "CTO & Co-founder AirPlate",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
+    link: "https://www.linkedin.com/in/troels-dupont-andreasen-6b2923ba/",
   },
 ];
 
