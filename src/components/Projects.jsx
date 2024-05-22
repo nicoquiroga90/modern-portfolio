@@ -15,7 +15,7 @@ const Projects = () => {
       <div className="container">
         <Heading
           title="My projects"
-          text="Some things I've build with love and expertise."
+          text="Some things I've build with love and expertise"
         />
 
         <div className="relative">

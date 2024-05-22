@@ -17,7 +17,7 @@ const Testimonials = () => {
         <div className="flex flex-wrap gap-10 mb-10">
           {testimonials.map((item) => (
             <div
-              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
+              className="flex relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
               style={{
                 backgroundImage: `url(${item.backgroundUrl})`,
               }}
@@ -33,7 +33,7 @@ const Testimonials = () => {
                     height={48}
                     alt={item.title}
                   />
-                  <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
+                  <p className="ml-auto p-2 font-code text-xs font-bold text-n-1 uppercase tracking-wider">
                     {item.author} <br />
                     {item.position}
                   </p>
