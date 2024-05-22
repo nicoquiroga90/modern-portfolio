@@ -45,7 +45,7 @@ import postgresql from "./collaboration/postgresql.png";
 import vitelogo from "./collaboration/vitelogo.png";
 
 import project1 from "./services/project-1.png";
-import service2 from "./services/service-2.png";
+import project2 from "./services/project-2.png";
 import service3 from "./services/service-3.png";
 
 import lines from "./pricing/lines.svg";
@@ -128,7 +128,7 @@ export {
   postgresql,
   vitelogo,
   project1,
-  service2,
+  project2,
   service3,
   lines,
   stars,
