@@ -85,10 +85,10 @@ export const notificationImages = [notification4, notification3, notification2];
 
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
-export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+export const timeoffServices = [
+  "Login with a Secret Code Access",
+  "Connected with an External Database",
+  "Create New Members, Teams, and Time-off",
 ];
 
 export const brainwaveServicesIcons = [

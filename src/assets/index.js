@@ -44,7 +44,7 @@ import tailwindlogo from "./collaboration/tailwindlogo.png";
 import postgresql from "./collaboration/postgresql.png";
 import vitelogo from "./collaboration/vitelogo.png";
 
-import service1 from "./services/service-1.png";
+import project1 from "./services/project-1.png";
 import service2 from "./services/service-2.png";
 import service3 from "./services/service-3.png";
 
@@ -127,7 +127,7 @@ export {
   tailwindlogo,
   postgresql,
   vitelogo,
-  service1,
+  project1,
   service2,
   service3,
   lines,
