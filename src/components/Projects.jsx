@@ -74,10 +74,11 @@ const Projects = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video generation</h4>
+                <h4 className="h4 mb-4">Web Solutions</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  The world’s most powerful AI photo and video art generation
-                  engine. What will you create?
+                  Bring your clients dynamic solutions with practical and
+                  eye-catching interfaces.
+                  <br /> What will you create?
                 </p>
 
                 <ul className="flex items-center justify-between">
@@ -106,7 +107,7 @@ const Projects = () => {
 
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
                 <img
-                  src={service3}
+                  src="https://raw.githubusercontent.com/nicoquiroga90/meal-sharing/main/Meal-SharinigAppProjectPresentation-ezgif.com-video-to-gif-converter.gif"
                   className="w-full h-full object-cover"
                   width={520}
                   height={400}
