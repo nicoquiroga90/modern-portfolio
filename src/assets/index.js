@@ -49,9 +49,9 @@ import project2 from "./services/project-2.png";
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
 
-import benefitCard1 from "./benefits/card-1.svg";
-import benefitCard2 from "./benefits/card-2.svg";
-import benefitCard3 from "./benefits/card-3.svg";
+import benefitCard1 from "./card-1.svg";
+import benefitCard2 from "./card-2.svg";
+import benefitCard3 from "./card-3.svg";
 import benefitCard4 from "./benefits/card-4.svg";
 import benefitCard5 from "./benefits/card-5.svg";
 import benefitCard6 from "./benefits/card-6.svg";
