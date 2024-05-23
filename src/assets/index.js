@@ -85,6 +85,7 @@ import twitter from "./socials/twitter.svg";
 import linkedin from "./socials/linkedin.svg";
 import github from "./socials/github.svg";
 import telegramIcon from "./socials/telegramIcon.svg";
+import whatsapp from "./socials/whatsapp.svg";
 
 export {
   logo,
@@ -166,4 +167,5 @@ export {
   linkedin,
   github,
   telegramIcon,
+  whatsapp,
 };

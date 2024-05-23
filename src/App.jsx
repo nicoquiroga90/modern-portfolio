@@ -5,6 +5,7 @@ import Testimonials from "./components/Testimonials";
 import Stack from "./components/Stack";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Projects />
         <Testimonials />
         <Contact />
+        <Footer />
       </div>
       <ButtonGradient />
     </>
