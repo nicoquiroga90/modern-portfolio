@@ -6,7 +6,7 @@ import { LeftCurve, RightCurve } from "./design/Collaboration";
 
 const Stack = () => {
   return (
-    <Section crosses>
+    <Section crosses id="skills">
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">My Skills</h2>
@@ -25,7 +25,7 @@ const Stack = () => {
             ))}
           </ul>
 
-          <Button>Contact</Button>
+          <Button href="https://t.me/NicoQ1290">Contact</Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">

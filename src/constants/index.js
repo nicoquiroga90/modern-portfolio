@@ -51,36 +51,36 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "My Skills",
+    url: "#skills",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "My projects",
+    url: "#projects",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Testimonials",
+    url: "#testimonial",
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "Contact",
+    url: "#contact",
   },
-  {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+  // {
+  //   id: "4",
+  //   title: "New account",
+  //   url: "#signup",
+  //   onlyMobile: true,
+  // },
+  // {
+  //   id: "5",
+  //   title: "Sign in",
+  //   url: "#login",
+  //   onlyMobile: true,
+  // },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -224,6 +224,7 @@ export const contact = [
     icon: github,
     contact: false,
     github: "https://github.com/nicoquiroga90",
+    white: true,
   },
   {
     id: "1",
@@ -233,6 +234,7 @@ export const contact = [
     icon: linkedin,
     contact: false,
     linkedin: "https://www.linkedin.com/in/nicolas-quiroga90/",
+    white: true,
   },
   {
     id: "2",

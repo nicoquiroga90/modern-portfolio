@@ -38,8 +38,8 @@ const Hero = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
             Unleash the power of your brand. Elevate your website.
           </p>
-          <Button href="/pricing" white>
-            Get started
+          <Button href="https://github.com/nicoquiroga90" white>
+            My Projects
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">

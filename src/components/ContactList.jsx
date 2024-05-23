@@ -28,6 +28,7 @@ const ContactList = () => {
                 ? item.linkedin
                 : item.telegram
             }
+            white={item.white}
           >
             {item.contact ? "Contact me" : "Check my profile"}
           </Button>
