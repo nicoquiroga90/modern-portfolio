@@ -221,11 +221,8 @@ export const contact = [
     title: "GitHub",
     description: "Take a look at more of my repositories and projects",
     icon: github,
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
+    contact: false,
+    github: "https://github.com/nicoquiroga90",
   },
   {
     id: "1",
@@ -233,11 +230,8 @@ export const contact = [
     description:
       "You can view my professional experiences and some posts related to my career.",
     icon: linkedin,
-    features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
-    ],
+    contact: false,
+    linkedin: "https://www.linkedin.com/in/nicolas-quiroga90/",
   },
   {
     id: "2",
@@ -245,11 +239,8 @@ export const contact = [
     description:
       "Feel free to send me a message; I will be happy to chat with you.",
     icon: telegramIcon,
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
+    contact: true,
+    telegram: "https://t.me/NicoQ1290",
   },
 ];
 

@@ -15,21 +15,21 @@ const ContactList = () => {
             {item.description}
           </p>
 
-          <div className="flex items-center h-[5.5rem] mb-6">
-            {item.icon && (
-              <>
-                <div className="text-[5.5rem] leading-none font-bold">
-                  <img src={item.icon} />
-                </div>
-              </>
-            )}
+          <div className="flex justify-center items-center h-[5.5rem] mb-6">
+            {item.icon && <img src={item.icon} />}
           </div>
 
           <Button
             className="w-full mb-6"
-            href={item.price ? "/pricing" : "mailto:nicoq1290@gmail.com"}
+            href={
+              item.github
+                ? item.github
+                : item.linkedin
+                ? item.linkedin
+                : item.telegram
+            }
           >
-            {item.price ? "Get started" : "Contact us"}
+            {item.contact ? "Contact me" : "Check my profile"}
           </Button>
         </div>
       ))}
