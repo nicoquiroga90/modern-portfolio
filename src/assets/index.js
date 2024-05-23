@@ -83,6 +83,8 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 import linkedin from "./socials/linkedin.svg";
+import github from "./socials/github.svg";
+import telegramIcon from "./socials/telegramIcon.svg";
 
 export {
   logo,
@@ -162,4 +164,6 @@ export {
   telegram,
   twitter,
   linkedin,
+  github,
+  telegramIcon,
 };

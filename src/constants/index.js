@@ -43,6 +43,8 @@ import {
   postgresql,
   vitelogo,
   linkedin,
+  github,
+  telegramIcon,
 } from "../assets";
 
 export const navigation = [
@@ -218,7 +220,7 @@ export const contact = [
     id: "0",
     title: "GitHub",
     description: "Take a look at more of my repositories and projects",
-    icon: "0",
+    icon: github,
     features: [
       "An AI chatbot that can understand your queries",
       "Personalized recommendations based on your preferences",
@@ -242,7 +244,7 @@ export const contact = [
     title: "Telegram",
     description:
       "Feel free to send me a message; I will be happy to chat with you.",
-    icon: null,
+    icon: telegramIcon,
     features: [
       "An AI chatbot that can understand your queries",
       "Personalized recommendations based on your preferences",
