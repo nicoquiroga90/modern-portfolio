@@ -42,6 +42,7 @@ import {
   tailwindlogo,
   postgresql,
   vitelogo,
+  linkedin,
 } from "../assets";
 
 export const navigation = [
@@ -212,12 +213,12 @@ export const collabApps = [
   },
 ];
 
-export const pricing = [
+export const contact = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    title: "GitHub",
+    description: "Take a look at more of my repositories and projects",
+    icon: "0",
     features: [
       "An AI chatbot that can understand your queries",
       "Personalized recommendations based on your preferences",
@@ -226,9 +227,10 @@ export const pricing = [
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "LinkedIn",
+    description:
+      "You can view my professional experiences and some posts related to my career.",
+    icon: linkedin,
     features: [
       "An advanced AI chatbot that can understand complex queries",
       "An analytics dashboard to track your conversations",
@@ -237,9 +239,10 @@ export const pricing = [
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
+    title: "Telegram",
+    description:
+      "Feel free to send me a message; I will be happy to chat with you.",
+    icon: null,
     features: [
       "An AI chatbot that can understand your queries",
       "Personalized recommendations based on your preferences",
