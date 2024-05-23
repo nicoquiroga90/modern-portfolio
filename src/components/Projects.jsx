@@ -23,6 +23,7 @@ const Projects = () => {
             <a
               href="https://time-off-nu.vercel.app/"
               className="block w-full h-full"
+              target="_blank"
             >
               <div className="absolute top-0 left-0 w-full h-full pointer-events-none xl:w-screen">
                 <img
@@ -56,26 +57,32 @@ const Projects = () => {
           </div>
 
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
-            <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
-              <div className="absolute inset-0">
-                <img
-                  src={project2}
-                  className="h-full w-full object-cover"
-                  width={630}
-                  height={750}
-                  alt="countries"
-                />
-              </div>
+            <a
+              href="https://countries-app-topaz.vercel.app/"
+              className="block w-full h-full"
+              target="_blank"
+            >
+              <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
+                <div className="absolute inset-0">
+                  <img
+                    src={project2}
+                    className="h-full w-full object-cover"
+                    width={630}
+                    height={750}
+                    alt="countries"
+                  />
+                </div>
 
-              <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Countries App</h4>
-                <p className="body-2 mb-[3rem] text-n-3">
-                  A REST API to display countries data.
-                </p>
-              </div>
+                <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
+                  <h4 className="h4 mb-4">Countries App</h4>
+                  <p className="body-2 mb-[3rem] text-n-3">
+                    A REST API to display countries data.
+                  </p>
+                </div>
 
-              <PhotoChatMessage />
-            </div>
+                <PhotoChatMessage />
+              </div>{" "}
+            </a>
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
@@ -110,18 +117,24 @@ const Projects = () => {
                 </ul>
               </div>
 
-              <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
-                <img
-                  src="https://raw.githubusercontent.com/nicoquiroga90/meal-sharing/main/Meal-SharinigAppProjectPresentation-ezgif.com-video-to-gif-converter.gif"
-                  className="w-full h-full object-cover"
-                  width={520}
-                  height={400}
-                  alt="Scary robot"
-                />
+              <a
+                href="https://www.loom.com/share/e595a6a0a609471191ae8dda1db28831?sid=05e65aae-b4dd-4819-ad87-c9a471c55c25"
+                className="block w-full h-full"
+                target="_blank"
+              >
+                <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
+                  <img
+                    src="https://raw.githubusercontent.com/nicoquiroga90/meal-sharing/main/Meal-SharinigAppProjectPresentation-ezgif.com-video-to-gif-converter.gif"
+                    className="w-full h-full object-cover"
+                    width={520}
+                    height={400}
+                    alt="Meal Sharing"
+                  />
 
-                <VideoChatMessage />
-                <VideoBar />
-              </div>
+                  <VideoChatMessage />
+                  <VideoBar />
+                </div>
+              </a>
             </div>
           </div>
 

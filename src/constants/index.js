@@ -15,9 +15,6 @@ import {
   framer,
   homeSmile,
   instagram,
-  notification2,
-  notification3,
-  notification4,
   notion,
   photoshop,
   plusSquare,
@@ -25,10 +22,6 @@ import {
   raindrop,
   recording01,
   recording03,
-  roadmap1,
-  roadmap2,
-  roadmap3,
-  roadmap4,
   searchMd,
   slack,
   sliders04,
@@ -84,8 +77,6 @@ export const navigation = [
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
-
-export const notificationImages = [notification4, notification3, notification2];
 
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
@@ -232,6 +223,7 @@ export const testimonials = [
     position: "Senior Software Engineer @GitHub",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
+    link: "https://www.linkedin.com/in/orhantoy/",
     light: true,
   },
   {
