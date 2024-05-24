@@ -21,7 +21,7 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Hola&nbsp;I'm Nicolas Quiroga&nbsp;
+            Hola!&nbsp;I'm Nicolas Quiroga&nbsp;
             <br />
             Full-Stack{` `}
             <span className="inline-block relative">
