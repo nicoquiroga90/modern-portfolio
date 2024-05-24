@@ -21,21 +21,21 @@ Currently, Modern Portfolioi is deploy. The following functions are operational:
 
 
 ### My Skills:
-Show visually and in writing the details of my stack.
+- Show visually and in writing the details of my stack.
 
 ### My Projects:
-Display my highlighted projects, providing a link to the deployed websites or explanatory videos of the project.
+- Display my highlighted projects, providing a link to the deployed websites or explanatory videos of the project.
 
 ### Testimonials
-Recommendations or experiences from mentors or managers who have worked with me are displayed.
+- Recommendations or experiences from mentors or managers who have worked with me are displayed.
 
 ### Contact 
-Provides the possibility to access my GitHub, LinkedIn, or contact me via Telegram.
+- Provides the possibility to access my GitHub, LinkedIn, or contact me via Telegram.
 
 
 ### Additional App Information:
 
-Other contact methods are included within the footer.
+- Other contact methods are included within the footer.
 
 
 ## Getting Started
