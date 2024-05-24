@@ -49,7 +49,7 @@ import project2 from "./services/project-2.png";
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
 
-import benefitCard1 from "./benefits/card-1.svg";
+import benefitCard1 from "../../public/images/card-1.svg";
 import benefitCard2 from "./benefits/card-2.svg";
 import benefitCard3 from "./benefits/card-3.svg";
 import benefitCard4 from "./benefits/card-4.svg";
