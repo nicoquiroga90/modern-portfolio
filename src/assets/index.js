@@ -1,7 +1,6 @@
 import logo from "./logo.svg";
 import check from "./check.svg";
 import nilogo from "./nilogo.svg";
-import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
 import play from "./play.svg";
 import gradient from "./gradient.png";
 import smallSphere from "./4-small.png";
@@ -27,12 +26,6 @@ import heroBackground from "./hero/hero-background.jpg";
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
 import discord from "./collaboration/discord.png";
-import figma from "./collaboration/figma.png";
-import framer from "./collaboration/framer.png";
-import notion from "./collaboration/notion.png";
-import photoshop from "./collaboration/photoshop.png";
-import protopie from "./collaboration/protopie.png";
-import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
 import reactlogo from "./collaboration/react.png";
 import jslogo from "./collaboration/jslogo.png";
@@ -49,17 +42,17 @@ import project2 from "./services/project-2.png";
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
 
-import benefitCard1 from "/images/card-1.svg";
-import benefitCard2 from "/images/card-2.svg";
-import benefitCard3 from "/images/card-3.svg";
-import benefitCard4 from "./testimonials/card-4.svg";
-import benefitCard5 from "./testimonials/card-5.svg";
-import benefitCard6 from "./testimonials/card-6.svg";
-import benefitIcon1 from "./testimonials/icon-1.svg";
-import benefitIcon2 from "./testimonials/icon-2.svg";
-import benefitIcon3 from "./testimonials/icon-3.svg";
-import benefitIcon4 from "./testimonials/icon-4.svg";
-import benefitImage2 from "./testimonials/image-2.png";
+import testimonialsCard1 from "/images/card-1.svg";
+import testimonialsCard2 from "/images/card-2.svg";
+import testimonialsCard3 from "/images/card-3.svg";
+import testimonialsCard4 from "./testimonials/card-4.svg";
+import testimonialsCard5 from "./testimonials/card-5.svg";
+import testimonialsCard6 from "./testimonials/card-6.svg";
+import testimonialsIcon1 from "./testimonials/icon-1.svg";
+import testimonialsIcon2 from "./testimonials/icon-2.svg";
+import testimonialsIcon3 from "./testimonials/icon-3.svg";
+import testimonialsIcon4 from "./testimonials/icon-4.svg";
+import testimonialsImage2 from "./testimonials/image-2.png";
 
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
@@ -77,7 +70,6 @@ export {
   check2,
   loading1,
   nilogo,
-  brainwaveWhiteSymbol,
   play,
   gradient,
   smallSphere,
@@ -99,12 +91,6 @@ export {
   curve1,
   curve2,
   discord,
-  figma,
-  framer,
-  notion,
-  photoshop,
-  protopie,
-  raindrop,
   slack,
   reactlogo,
   jslogo,
@@ -118,17 +104,17 @@ export {
   project2,
   lines,
   stars,
-  benefitCard1,
-  benefitCard2,
-  benefitCard3,
-  benefitCard4,
-  benefitCard5,
-  benefitCard6,
-  benefitIcon1,
-  benefitIcon2,
-  benefitIcon3,
-  benefitIcon4,
-  benefitImage2,
+  testimonialsCard1,
+  testimonialsCard2,
+  testimonialsCard3,
+  testimonialsCard4,
+  testimonialsCard5,
+  testimonialsCard6,
+  testimonialsIcon1,
+  testimonialsIcon2,
+  testimonialsIcon3,
+  testimonialsIcon4,
+  testimonialsImage2,
   discordBlack,
   facebook,
   instagram,
