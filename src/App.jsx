@@ -6,6 +6,7 @@ import Stack from "./components/Stack";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Footer />
       </div>
       <ButtonGradient />
+      <Analytics />
     </>
   );
 };
