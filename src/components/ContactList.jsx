@@ -11,7 +11,7 @@ const ContactList = () => {
         >
           <h4 className="h4 mb-4">{item.title}</h4>
 
-          <p className="body-2 min-h-[4rem] mb-3 text-n-1/50">
+          <p className="body-2 min-h-[4rem] mb-3 text-n-1">
             {item.description}
           </p>
 

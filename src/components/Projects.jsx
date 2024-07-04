@@ -90,7 +90,6 @@ const Projects = () => {
                 <p className="body-2 mb-[2rem] text-n-3">
                   Bring your clients dynamic solutions with practical and
                   eye-catching interfaces.
-                  <br /> What will you create?
                 </p>
 
                 <ul className="flex items-center justify-between">
