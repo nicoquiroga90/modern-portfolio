@@ -23,7 +23,7 @@ const Hero = () => {
           <h1 className="h1 mb-6">
             Hola!&nbsp;I'm Nicolas Quiroga&nbsp;
             <br />
-            Full-Stack{` `}
+            Frontend{` `}
             <span className="inline-block relative">
               Developer{" "}
               <img
@@ -36,7 +36,7 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Unleash the power of your brand. Elevate your website.
+            Specialize in React to create modern and beautiful websites{" "}
           </p>
           <Button href="https://github.com/nicoquiroga90" white>
             My Projects

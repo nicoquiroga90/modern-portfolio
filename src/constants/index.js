@@ -88,7 +88,7 @@ export const collabContent = [
   {
     id: "0",
     title: "Languages and Tools",
-    text: "Proficient in JavaScript (JS) and TypeScript (TS), I harness their flexibility and strong typing to build scalable and maintainable applications. Additionally, I utilize Vite for rapid development and Node.js for efficient server-side programming.",
+    text: "Proficient in JavaScript (JS), TypeScript (TS), and Next.js, I harness their flexibility, strong typing, and powerful features like server-side rendering and static site generation to build scalable, maintainable, and high-performance applications.",
   },
   {
     id: "1",
@@ -98,7 +98,7 @@ export const collabContent = [
   {
     id: "2",
     title: "Others",
-    text: "With expertise in PostgreSQL, MongoDB, and Git, I ensure robust data management and collaborative development practices. These tools enable efficient version control, seamless database operations, and effective project collaboration, contributing to the overall success of the development process.",
+    text: "With expertise in Git and introductory cloud management with AWS/Azure, I ensure collaborative development practices and efficient cloud operations. These tools enable effective version control, seamless project collaboration, and contribute to the overall success of the development process.",
   },
 ];
 
@@ -183,12 +183,12 @@ export const contact = [
   },
   {
     id: "2",
-    title: "Telegram",
+    title: "Email",
     description:
-      "Feel free to send me a message; I will be happy to chat with you.",
+      "Feel free to send me a email; I will be happy to chat with you.",
     icon: telegramIcon,
     contact: true,
-    telegram: "https://t.me/NicoQ1290",
+    telegram: "mailto:nicoq1290@gmail.com",
   },
 ];
 
