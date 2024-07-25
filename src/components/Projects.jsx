@@ -21,7 +21,7 @@ const Projects = () => {
         <div className="relative">
           <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <a
-              href="https://time-off-nu.vercel.app/"
+              href="https://modern-time-off.vercel.app/"
               className="block w-full h-full"
               target="_blank"
             >
